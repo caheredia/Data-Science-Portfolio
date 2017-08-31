@@ -2,4 +2,5 @@
 A collection of my various data science projects 
 
 ### Table Of Contents
+------
 
