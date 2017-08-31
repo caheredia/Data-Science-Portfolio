@@ -1,0 +1,1 @@
+Create a text content analyzer. This is a tool used by writers to find statistics such as word and sentence count on essays or articles they are writing. Write a Python program that analyzes input from a file and compiles statistics on it.
