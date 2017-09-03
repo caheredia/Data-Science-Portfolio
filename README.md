@@ -1,8 +1,8 @@
 # Data Science Portfolio
+------
 A collection of my various data science projects 
 
 ## Table Of Contents
-------
 
 ### Story Telling 
 * [**Split Test Analysis with Bayes Statistics:**](https://github.com/caheredia/Data_Science_Portfolio/blob/master/Galvanize/develop/q3.ipynb) A product split test analysis starting from a table of coversion rates. 
