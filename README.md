@@ -13,7 +13,7 @@ A collection of my various data science projects
 * [**Silicon Emissivity Data with Linear Regression:**](https://github.com/caheredia/Reworking-PhD-data-with-Bayes/blob/master/develop/Bayes%20Analysis%20of%20Raw%20Emissivity%20Data.ipynb) Reworking recorded intrinsic silicon emissivity data with linear regression and Python. A work in progress! **Keywords:** Linear Regression, Pandas, Data visualization
 
 ### Data Cleaning
-* [**Python functions:**](https://github.com/caheredia/Data_Science_Portfolio/blob/master/Galvanize/deliver/2017-9-1_ch_Python_Challenges.ipynb) A collection of simple Python functions, e.g. number of times given letters appear in a document.
+* [**Python functions:**](https://github.com/caheredia/Data_Science_Portfolio/blob/master/Galvanize/deliver/2017-9-1_ch_Python_Challenges.ipynb) A collection of simple Python functions, e.g. number of times given characters appear in a document.
 **Keywords:** Numpy, Pandas, String manipulation
 
 * [**Text analyzer:**](https://github.com/caheredia/Data_Science_Portfolio/blob/master/Galvanize/develop/q1.ipynb) A simple text content analyzer used to find statistics, e.g. word and sentence count.
