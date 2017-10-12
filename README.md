@@ -7,7 +7,7 @@ A collection of my various data science projects
 ### Data Storytelling 
 * [**Micro-hydro power generation:**](https://nbviewer.jupyter.org/github/caheredia/Hydro/blob/master/2017-10-6_ch_micro_hydro_roi.ipynb) Due diligence on the viability of utilizing micro-hydro power generators in California's San Joaquin Valley irrigation canals. This is a work in progress! <br />  **Keywords:** Entrepreneur ventures, Business Development, Return on investment, Net present value, Lists of cash flows, Levelized cost of electricity, Returns over time
 
-* [**Online dating stats:**](https://nbviewer.jupyter.org/github/caheredia/Data_Science_Portfolio/blob/master/Responses/deliver/2017-8-21_ch_okc_response_data_bayes.ipynb) An analyis of my online dating data compared to similar demographics. <br />                                                                                                                        **Keywords:** A/B Test, Bayesian inference, Pandas, Data visualization
+* [**Online dating stats:**](https://nbviewer.jupyter.org/github/caheredia/Data_Science_Portfolio/blob/master/Responses/deliver/2017-8-21_ch_okc_response_data_bayes.ipynb) An analysis, with posterior distributions, of dating data for a Latino test account compared to similar demographics.  <br />   **Keywords:** A/B Test, Bayesian inference, Pandas, Data visualization
 
 * [**Split Test Analysis with Bayes Statistics:**](https://nbviewer.jupyter.org/github/caheredia/Data_Science_Portfolio/blob/master/Galvanize/develop/q3.ipynb
 ) A product split test analysis starting from a table of coversion rates. <br />                                                    **Keywords:** A/B Test, Bayesian inference, Pandas, Data visualization
