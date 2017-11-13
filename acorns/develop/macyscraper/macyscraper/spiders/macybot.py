@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import scrapy
 
-# Read in previosly saved urls from macys.com
+# Read in previously saved urls from macys.com
 with open('test_urls.txt') as f:
     urls = f.read().splitlines()
     
