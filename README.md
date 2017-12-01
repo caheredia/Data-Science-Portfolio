@@ -17,8 +17,12 @@ A collection of my various data science projects
 
 * [**Micro-hydro power generation:**](https://nbviewer.jupyter.org/github/caheredia/Hydro/blob/master/2017-10-6_ch_micro_hydro_roi.ipynb) Due diligence on the viability of utilizing micro-hydro power generators in California's San Joaquin Valley irrigation canals. This is a work in progress! <br />  **Keywords:** Entrepreneur ventures, Business Development, Return on investment, Net present value, Lists of cash flows, Levelized cost of electricity, Returns over time
 
+* [**Fitting a sigmoid function to Silicon Emissivity Data :**](https://nbviewer.jupyter.org/github/caheredia/Emissivity_Bayes/blob/master/deliver/2017-10-28_ch_emissivity_bayes.ipynb) Reworking recorded intrinsic silicon emissivity data with by fitting sigmoid function using pymc3. A work in progress. **Keywords:** PYMC3, Bayesian inference, Pandas
+
 ### Data Cleaning
 * [**Data Wrangling:**](https://nbviewer.jupyter.org/github/caheredia/Data_Science_Portfolio/blob/master/ID%20Analytics%20Report/develop/2017.10.2_ch_IDA_data_wrangling.ipynb) A data munging exercise, working with JSON file with 150,000 entries. <br /> **Keywords:** Data munging, JSON, Large data, Pandas, String manipulation
+
+
 
 
 
