@@ -9,7 +9,7 @@ import scrapy
 class macySpider(scrapy.Spider):
     name = 'macybot'
     allowed_domains = ['www.macys.com']
-    start_urls = ['https://www.macys.com/cms/slp/2/Site-Index']
+    start_urls = ['https://www.macys.com']
 
     def parse(self, response):
         # Extracting the content using css selectors
@@ -37,6 +37,7 @@ class macySpider(scrapy.Spider):
             yield scrapy.Request(url=next_page_url, callback=self.parse)
 
         # file through cleaned up links in index page
-        for url in response.xpath('//a/@href').extract():
-            if 'http://www' in url and 'java' not in url:
+        for x in response.xpath('//a/@href').extract():
+            if 'www' not in x:
+                url = response.urljoin(x)
                 yield scrapy.Request(url, callback=self.parse)
