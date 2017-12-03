@@ -2,14 +2,15 @@
 import scrapy
 
 # Read in previously saved urls from macys.com
-# with open('test_urls.txt') as f:
-#  urls = f.read().splitlines()
+with open('test_urls.txt') as f:
+    urls = f.read().splitlines()
 
 
 class macySpider(scrapy.Spider):
     name = 'macybot'
     allowed_domains = ['www.macys.com']
-    start_urls = ['https://www.macys.com']
+    #start_urls = ['https://www.macys.com']
+    start_urls = urls
 
     def parse(self, response):
         # Extracting the content using css selectors
@@ -36,8 +37,8 @@ class macySpider(scrapy.Spider):
             next_page_url = response.urljoin(next_page_url)
             yield scrapy.Request(url=next_page_url, callback=self.parse)
 
-        # file through cleaned up links in index page
-        for x in response.xpath('//a/@href').extract():
-            if 'www' not in x:
-                url = response.urljoin(x)
-                yield scrapy.Request(url, callback=self.parse)
+#        # file through cleaned up links in index page
+#        for x in response.xpath('//a/@href').extract():
+#            if 'www' not in x:
+#                url = response.urljoin(x)
+#                yield scrapy.Request(url, callback=self.parse)
