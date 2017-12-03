@@ -1,15 +1,12 @@
 # -*- coding: utf-8 -*-
 import scrapy
 
-# Read in previously saved urls from macys.com
-# with open('test_urls.txt') as f:
-#  urls = f.read().splitlines()
-
 
 class macySpider(scrapy.Spider):
-    name = 'macybot'
+    name = 'macybot2'
     allowed_domains = ['www.macys.com']
-    start_urls = ['https://www.macys.com/cms/slp/2/Site-Index']
+    #start_urls = ['https://www.macys.com/cms/slp/2/Site-Index']
+    start_urls = ['http://www1.macys.com/shop/makeup-and-perfume/nail-polish?id=69901']
 
     def parse(self, response):
         # Extracting the content using css selectors
@@ -36,7 +33,7 @@ class macySpider(scrapy.Spider):
             next_page_url = response.urljoin(next_page_url)
             yield scrapy.Request(url=next_page_url, callback=self.parse)
 
-        # file through cleaned up links in index page
-        for url in response.xpath('//a/@href').extract():
-            if 'http://www' in url and 'java' not in url:
-                yield scrapy.Request(url, callback=self.parse)
+#        # file through cleaned up links in index page
+#        for url in response.xpath('//a/@href').extract():
+#            if 'http://www' in url and 'java' not in url:
+#                yield scrapy.Request(url, callback=self.parse)

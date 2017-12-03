@@ -1,0 +1,14 @@
+setup.py
+macyscraper/__init__.py
+macyscraper/items.py
+macyscraper/middlewares.py
+macyscraper/pipelines.py
+macyscraper/settings.py
+macyscraper/spiders/__init__.py
+macyscraper/spiders/macybot.py
+macyscraper/spiders/macybot2.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
