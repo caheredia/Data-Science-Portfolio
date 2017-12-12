@@ -24,5 +24,3 @@ A collection of my various data science projects
 
 
 
-
-
